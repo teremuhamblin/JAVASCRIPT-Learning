@@ -1,5 +1,10 @@
+###### LICENSE.md >> markdown
+# ⚖️ LICENSE
+###### spéciale JavaScript
+
+```markdown
 # JAVASCRIPT-Learning
-License v1.0
+- License v1.0
 
 Autorisé :
 - Utilisation, copie, modification pour apprentissage ou enseignement.
@@ -12,3 +17,6 @@ Restrictions :
 - Interdiction d’usage malveillant ou trompeur.
 
 Licence simple, pensée pour le partage et l’éducation.
+```
+
+---
