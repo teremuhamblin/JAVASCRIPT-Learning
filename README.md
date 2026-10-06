@@ -1,14 +1,22 @@
 # JAVASCRIPT-Learning
 - **v1.0**
 
-Programme d’apprentissage progressif du langage **JavaScript**, organisé en quatre niveaux : *débutant, intermédiaire, avancé et expert.*
+- Programme d’apprentissage progressif du langage ***JavaScript***, organisé en quatre niveaux :
 
-Tous les cours sont regroupés dans le dossier `cours/`.
+#### débutant
+#### intermédiaire
+#### avancé
+#### expert
 
-## Structure
+    - Tous les cours sont regroupés dans le dossier cours/
+
+### Structure
+
+```markdown
 - `cours/debutant/` — Bases du langage
 - `cours/intermediaire/` — Logique, DOM, fonctions
 - `cours/avance/` — Asynchronisme, API, modules
 - `cours/expert/` — Patterns, optimisation, architecture
+```
 
-Projet conçu pour un apprentissage clair, rapide et structuré.
+>Projet conçu pour un apprentissage clair, rapide et structuré.
