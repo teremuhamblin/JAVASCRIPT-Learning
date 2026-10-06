@@ -2,7 +2,7 @@
 
 ---
 
-# 🚀 JAVASCRIPT‑Learning
+## 🚀 JAVASCRIPT‑Learning
 
 - Programme d’apprentissage progressif
 
