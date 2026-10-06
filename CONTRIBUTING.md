@@ -20,11 +20,11 @@ Ce document explique comment contribuer efficacement, proprement et dans le resp
 1. Fork & Branch
 - Forker le dépôt.
 - Créer une branche dédiée à votre contribution :
-  `
+  ```text
   feature/nom-de-la-fonction
   fix/nom-du-bug
   docs/amelioration-doc
-  `
+  ```
 - Ne jamais travailler directement sur main.
 
 2. Style du code
@@ -41,8 +41,7 @@ Ce document explique comment contribuer efficacement, proprement et dans le resp
 
 3. Structure des contributions
 Les contributions doivent respecter la structure du projet :
-
-`
+```text
 cours/
 ├── debutant/
 ├── intermediaire/
@@ -53,8 +52,7 @@ docs/
 ├── introduction.md
 ├── structure.md
 ├── guide_pedagogique.md
-...
-`
+```
 
 Toute modification doit être cohérente avec cette organisation.
 
@@ -84,9 +82,9 @@ Chaque PR doit contenir :
 
 Exemple :
 
-`
+```text
 Ajout du module "DOM avancé" dans cours/intermediaire/
-`
+```
 
 ---
 
@@ -112,6 +110,5 @@ Les contributions doivent renforcer cet objectif.
 ---
 
 ✔️ Merci de contribuer à JAVASCRIPT-Learning.
-`
 
 ---
