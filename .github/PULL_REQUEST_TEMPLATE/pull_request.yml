@@ -1,0 +1,70 @@
+name: "🔀 Pull Request"
+description: "Proposer une modification au projet JAVASCRIPT-Learning"
+title: "[PR] "
+labels: ["pull-request"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🔀 Description
+        Explique clairement ce que fait cette Pull Request.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Résumé"
+      description: "Décris les modifications apportées."
+      placeholder: |
+        - Ajout de...
+        - Correction de...
+        - Mise à jour de...
+    validations:
+      required: true
+
+  - type: textarea
+    id: changes
+    attributes:
+      label: "Fichiers modifiés"
+      placeholder: |
+        - CONTRIBUTING.md
+        - cours/intermediaire/internal.md
+        - docs/architecture.md
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: "Motivation"
+      description: "Pourquoi cette modification est-elle nécessaire ?"
+      placeholder: "Explique ici..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: tests
+    attributes:
+      label: "Tests réalisés"
+      description: "Décris les tests effectués pour valider la PR."
+      placeholder: |
+        - Testé dans navigateur
+        - Vérifié syntaxe Markdown
+        - Vérifié cohérence pédagogique
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: "Checklist"
+      options:
+        - label: "La PR respecte les règles du fichier .RULES.md"
+          required: true
+        - label: "La PR respecte les directives du CONTRIBUTING.md"
+          required: true
+        - label: "Aucun fichier inutile n'a été ajouté"
+          required: true
+        - label: "La PR est prête à être fusionnée"
+          required: false
