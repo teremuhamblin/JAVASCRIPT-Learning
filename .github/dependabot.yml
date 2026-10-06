@@ -1,0 +1,56 @@
+version: 2
+updates:
+  # 🔧 Mises à jour des dépendances npm (racine du projet)
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    commit-message:
+      prefix: "deps"
+      include: "scope"
+    labels:
+      - "dependencies"
+      - "automated"
+    reviewers:
+      - "Teremu"
+    assignees:
+      - "Teremu"
+
+  # 📁 Mises à jour npm dans les sous-dossiers (si tu ajoutes des projets JS)
+  - package-ecosystem: "npm"
+    directory: "/cours/"
+    schedule:
+      interval: "weekly"
+    commit-message:
+      prefix: "deps"
+    labels:
+      - "dependencies"
+      - "cours"
+    assignees:
+      - "Teremu"
+
+  # 📁 Mises à jour npm dans docs (si tu ajoutes un générateur de docs)
+  - package-ecosystem: "npm"
+    directory: "/docs/"
+    schedule:
+      interval: "monthly"
+    commit-message:
+      prefix: "deps"
+    labels:
+      - "dependencies"
+      - "docs"
+    assignees:
+      - "Teremu"
+
+  # ⚙️ Mises à jour des GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    commit-message:
+      prefix: "ci"
+    labels:
+      - "ci"
+      - "automation"
+    assignees:
+      - "Teremu"
