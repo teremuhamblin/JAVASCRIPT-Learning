@@ -9,9 +9,9 @@
 - v1.0 → v10.0 Final
 
 <p align="center">
-  <img src="https://img.shields.io/badge/JavaScript-Learning-yellow?style=for-the-badge&logo=javascript" />
-  <img src="https://img.shields.io/badge/Version-10.0-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Status-Stable-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/JavaScript-Learning-pink?style=for-the-badge&logo=javascript" />
+  <img src="https://img.shields.io/badge/Version-10.0-pink?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Stable-pink?style=for-the-badge" />
 </p>
 
 ---
