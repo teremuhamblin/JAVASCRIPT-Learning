@@ -1,0 +1,38 @@
+# CODEOWNERS
+##JAVASCRIPT-Learning
+#### Définition des responsables des fichiers et dossiers du projet
+
+# 👑 Propriétaire global du projet
+* @teremuhamblin 
+
+# 📚 Documentation
+/docs/ @teremuhamblin 
+/docs/* @teremuhamblin 
+
+# 📘 Cours — Débutant
+/cours/debutant/ @teremuhamblin 
+
+# 📗 Cours — Intermédiaire
+/cours/intermediaire/ @teremuhamblin 
+
+# 📙 Cours — Avancé
+/cours/avance/ @teremuhamblin 
+
+# 📕 Cours — Expert
+/cours/expert/ @teremuhamblin 
+
+# 🛠️ Fichiers racine
+/README.md @teremuhamblin 
+/CONTRIBUTING.md @teremuhamblin 
+/.RULES.md @teremuhamblin 
+/MAINTAINERS.md @teremuhamblin 
+
+# ⚙️ Automatisation & CI/CD
+/.github/ @teremuhamblin 
+/.github/* @teremuhamblin 
+
+# 🔐 Sécurité
+/docs/securite.md @teremuhamblin 
+
+# 🧪 Tests
+/tests/ @teremuhamblin 
