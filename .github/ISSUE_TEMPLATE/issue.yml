@@ -1,0 +1,63 @@
+name: "📌 Nouvelle Issue"
+description: "Créer une issue pour le projet JAVASCRIPT-Learning"
+title: "[Issue] "
+labels: ["issue"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 📌 Description
+        Décris clairement le problème, la demande ou l'amélioration.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description détaillée"
+      description: "Explique le contexte, le comportement attendu, le comportement actuel."
+      placeholder: "Décris ici..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: "Étapes pour reproduire"
+      description: "Liste les étapes pour reproduire le problème."
+      placeholder: |
+        1. Aller dans...
+        2. Cliquer sur...
+        3. Observer...
+    validations:
+      required: false
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Comportement attendu"
+      placeholder: "Décris ce qui devrait se produire."
+    validations:
+      required: false
+
+  - type: textarea
+    id: files
+    attributes:
+      label: "Fichiers concernés"
+      placeholder: |
+        - cours/debutant/...
+        - docs/structure.md
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: "Checklist"
+      options:
+        - label: "J'ai vérifié que l'issue n'existe pas déjà"
+          required: true
+        - label: "J'ai testé le problème dans un environnement réel"
+          required: false
+        - label: "J'ai ajouté toutes les informations nécessaires"
+          required: true
